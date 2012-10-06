@@ -1,0 +1,5 @@
+A frontend for the llvm optimizer and machine code generator for a hommade programming language. The goal is to make a low-level procedural programming language with support for block syntax, static typing, and pointers. I want it to look like python(without the whitespace) or haskell, yet have pointers. I intend to use parser-generators as opposed to hand-writing a parser, since table-driven parsers are mostly boilerplate. Flex, Bison, and the LLvm are the technologies that I'll be leveraging in the generation of this language. I'll first do the academic specification(planning, BNF, specs, toolchain notes) and then I'll actually get the code down. This may take longer than a quarter. 
+
+If I have the time, I'll try to add a smart macro/proprocessor system. I'd like to do more lisp-style macros than C-style preprocessor commands, but I'm not sure how well that works for a compiled language. 
+
+If I get all of this done, and have not decided that there is little left to learn, I will build in a Foreign Function Interface to allow calling C functions from within my language, something nice for a systems programming language. 
